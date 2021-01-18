@@ -1,0 +1,79 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    &-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        &__title {
+            width: 100%;
+            text-align: center;
+            font-size: 2em;
+            font-weight: 500;
+            color: #000;
+            margin-top: 2em;
+        }
+        &__subtitle {
+            width: 50%;
+            text-align: center;
+            font-size: 1em;
+            line-height: 1.5em;
+            color: #000;
+            margin-top: 1em;
+        }
+    }
+    &-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1em 0;
+        &__link {
+            text-align: center;
+            width: 15%;
+            font-size: 1em;
+            font-weight: 600;
+            color: #000;
+            border: 1px solid #998675;
+            padding: 0.5em 0;
+            margin: 1em;
+            &:hover {
+                background: #998675;
+                color: #fff;
+                transition: 0.5s;
+            }
+        }
+    }
+    &-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        &__images{
+            width: 21em;
+            margin: 0.5em 0.5em;
+            transition: 0.5s;
+            
+        }
+    }
+    &-button{
+        display: flex;
+            justify-content: center;
+            width: 100%;
+        &__btn {
+            width: 10em;
+            height: 2.5em;
+            font-size: 1em;
+            color: #fff;
+            background: #998675;
+            border-radius: 0.3em;
+            margin-top: 2em;
+            &:hover{
+                background: #5a534d;
+                transition: 0.5s;
+            }
+        }
+    }
+}

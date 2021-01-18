@@ -1,0 +1,109 @@
+.footer-wrap {
+    background: #191919;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 3em;
+    margin-bottom: 5em;
+    /*Наименование блоков*/
+    &__title {
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 1em;
+    }
+    /*Обертка для содержимого блоков Posts и Twitter*/
+    &__elements {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    &-waxom {
+        display: flex;
+        flex-wrap: wrap;
+        width: 25%;
+        &__logo {
+            width: 100%;
+            margin-top: -1em;
+        }
+        &__image {
+            width: 70%;
+        }
+        &__subtitle {
+            width: 90%;
+            font-size: 1em;
+            line-height: 1.5em;
+            color: #5d5c5c;
+            margin: 2em 0 1em 0;
+        }
+        &__more {
+            width: 100%;
+            font-size: 1em;
+            font-weight: 600;
+            line-height: 1.5em;
+            color: #fff;
+        }
+    }
+    &-posts {
+        display: flex;
+        flex-wrap: wrap;
+        width: 25%;
+        &__date {
+            width: 100%;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #fff;
+        }
+        &__subtitle {
+            width: 100%;
+            font-size: 1em;
+            color: #5d5c5c;
+            margin-bottom: 0.5em;
+        }
+    }
+    &-twitter {
+        display: flex;
+        flex-wrap: wrap;
+        width: 25%;
+        &__subtitle {
+            width: 100%;
+            font-size: 1em;
+            color: #5d5c5c;
+        }
+        &__time {
+            width: 100%;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #fff;
+            margin: 0 0 1em 0;
+        }
+    }
+    &-widget {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 25%;
+        &__items {
+            display: flex;
+            flex-wrap: wrap;
+            width: 45%;
+            margin: 0.5em 0.5em;
+        }
+        &__image{
+            width: 100%;
+        }
+    }
+}
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #111111;
+    &__text{
+        display: flex;
+        width: 20%;
+    }
+}

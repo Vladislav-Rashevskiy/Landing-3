@@ -1,0 +1,21 @@
+.partners-wrap{
+    background: url(../images/partners/partners-background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    &-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin: 7em 0.5em;
+        &__image{
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.counters-wrap{
+    background: linear-gradient(to right,#221c1a,#4d3327);
+}
+.counters{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    &-items{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+        &__icon{
+            margin: 3em 0 1em 0;
+        }
+        &__number{
+            font-size: 2em;
+            color: #fff;
+        }
+        &__name{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1em;
+            line-height: 1.5em;
+            color: #998675;
+            margin-bottom: 3em;
+            &::after {
+                content: "";
+                display: block;
+                width: 2em;
+                height: 3px;
+                background:#998675;
+                margin: 1em 0;
+            }
+        }
+    }
+}
